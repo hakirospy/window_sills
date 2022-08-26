@@ -149,7 +149,7 @@ header .authBlock .faivourite span, header .authBlock .smallBasket span {
   -ms-flex-pack: distribute;
       justify-content: space-around;
   padding-top: 80px;
-  padding-bottom: 273px;
+  padding-bottom: 133px;
   margin-top: 28px;
 }
 
@@ -178,7 +178,7 @@ header .authBlock .faivourite span, header .authBlock .smallBasket span {
   -webkit-box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.1);
           box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.1);
   border-radius: 10px;
-  bottom: 10px;
+  bottom: -3px;
   position: absolute;
   width: 202px;
   height: 66px;
@@ -208,5 +208,67 @@ header .authBlock .faivourite span, header .authBlock .smallBasket span {
           flex-direction: column;
   -ms-flex-pack: distribute;
       justify-content: space-around;
+}
+
+/* tabs Rasdel Main page*/
+.razdelTabs {
+  display: -ms-grid;
+  display: grid;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  background: #E6E4E3;
+}
+
+.razdelTabs .contentTab {
+  max-width: 1572px;
+  display: -ms-grid;
+  display: grid;
+  -webkit-column-gap: 24px;
+          column-gap: 24px;
+  -ms-grid-columns: (375px)[4];
+      grid-template-columns: repeat(4, 375px);
+}
+
+.razdelTabs .contentTab .tab {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 22px 40px;
+  background: #F0F0F0;
+  border-radius: 10px 10px 0px 0px;
+  cursor: pointer;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  height: 130px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.razdelTabs .contentTab .tab:hover {
+  background: #FFFFFF;
+}
+
+.razdelTabs .contentTab .tab:hover .count span {
+  background: #F0F0F0;
+}
+
+.razdelTabs .contentTab .tab .count span {
+  background: #FFFFFF;
+  border-radius: 30px;
+  padding: 15px;
+}
+
+.razdelTabs .contentTab .tab.active {
+  background: #FFFFFF;
+}
+
+.razdelTabs .contentTab .tab.active span {
+  background: #F0F0F0;
+}
+
+.razdelTabs .contentTab .tab.top {
+  height: 140px;
 }
 /*# sourceMappingURL=style.css.map */

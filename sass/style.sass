@@ -97,8 +97,9 @@ header
     flex-wrap: wrap
     justify-content: space-around
     padding-top: 80px
-    padding-bottom: 273px
+    padding-bottom: 133px
     margin-top: 28px
+
     .conteinerSlider
         display: flex
         column-gap: 24px
@@ -114,7 +115,7 @@ header
                 background: #FFFFFF
                 box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.1)
                 border-radius: 10px
-                bottom: 10px
+                bottom: -3px
                 position: absolute
                 width: 202px
                 height: 66px
@@ -136,4 +137,51 @@ header
                         height: 66px
                         flex-direction: column
                         justify-content: space-around
-                    
+
+/* tabs Rasdel Main page*/
+.razdelTabs
+    display: grid
+    justify-content: space-around
+    background: #E6E4E3
+
+ 
+    .contentTab
+        max-width: 1572px
+        display: grid
+        column-gap: 24px
+        
+        grid-template-columns:  repeat(4, 375px)
+        
+        .tab
+            display: flex
+            padding: 22px 40px
+            background: #F0F0F0
+            border-radius: 10px 10px 0px 0px
+            cursor: pointer
+            justify-content: space-between
+            height: 130px
+            align-items: center
+            &:hover
+                background: #FFFFFF
+                .count span
+                    background: #F0F0F0
+
+            .count span
+                background: #FFFFFF
+                border-radius: 30px
+                padding: 15px
+               
+
+
+        .tab.active
+            background: #FFFFFF
+            span
+                background: #F0F0F0
+        .tab.top
+            height: 140px
+
+
+            
+         
+       
+
