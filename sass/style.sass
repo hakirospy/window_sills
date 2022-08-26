@@ -1,10 +1,35 @@
 header
-    display: flex
+    display: grid
     justify-content: space-around
     margin-top: 32px
+    gap: 32px
     section
         display: grid
-        grid-template-columns: 230px 500px auto 150px
+        grid-template-columns: 230px 570px minmax(60px, 500px) 150px
+        gap: 46px
+        .phoneBlock
+            font-style: normal
+            font-weight: 300
+            font-size: 18px
+            line-height: 24px
+            display: grid
+            align-items: center
+        .search
+            display: grid
+            justify-items: end
+
+            .searchButton
+                border: none
+                padding: 10px 25px
+                background-color: #F0F0F0
+                width: max-content
+                img
+
+                    background-image: url('../img/search.svg')
+                    width: 20px
+                    height: 20px
+                    
+                
         .topMenu
             display: flex
             gap: 15px
@@ -26,6 +51,89 @@ header
             font-weight: 400
             font-size: 28px
             line-height: 24px
-            margin-right: 37px
+    
             display: grid
-            align-items: center
+            align-items: center 
+    .headerBottom
+        display: grid
+        grid-template-columns: 5fr 1fr
+        align-items: center
+        
+    .menuSmallTop
+        display: flex
+        gap: 20px
+        a
+            text-decoration: none 
+        span
+            font-weight: 300
+            font-size: 14px
+            line-height: 18px
+            color: black
+            text-decoration: none 
+
+    .authBlock
+        display: flex
+        gap: 30px
+        justify-content: flex-end
+        .faivourite, .smallBasket
+            position: relative
+        .faivourite span, .smallBasket span
+            background: #F0F0F0
+            border: 1px solid #D2D0CE
+            border-radius: 3px
+            font-weight: 300
+            font-size: 11px
+           
+            padding: 2px
+            position: absolute
+            right: -4px
+            top: -6px
+
+/* Main Slider*/
+.mainSlider
+    background: #E6E4E3
+    display: grid
+    align-content: center
+    flex-wrap: wrap
+    justify-content: space-around
+    padding-top: 80px
+    padding-bottom: 273px
+    margin-top: 28px
+    .conteinerSlider
+        display: flex
+        column-gap: 24px
+        .itemSlider
+            border-radius: 10px
+            height: 290px
+            width: 242px
+            
+            position: relative
+            &:hover
+                filter: drop-shadow(0px 5px 30px rgba(0, 0, 0, 0.5))
+            .contentSlider
+                background: #FFFFFF
+                box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.1)
+                border-radius: 10px
+                bottom: 10px
+                position: absolute
+                width: 202px
+                height: 66px
+                margin: 20px
+                text-align: center
+                a
+                    text-decoration: none
+
+
+                    span
+                        font-style: normal
+                        font-weight: 300
+                        font-size: 13px
+                        line-height: 18px
+                        text-align: center
+                        color: #000000
+                        padding: 0px 20px 0px 20px
+                        display: flex
+                        height: 66px
+                        flex-direction: column
+                        justify-content: space-around
+                    
