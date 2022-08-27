@@ -107,10 +107,13 @@ header
             border-radius: 10px
             height: 290px
             width: 242px
-            
-            position: relative
+            transition: all 0.2s linear
+            position: relative 
             &:hover
-                filter: drop-shadow(0px 5px 30px rgba(0, 0, 0, 0.5))
+                box-shadow: 0 5px 10px 4px rgba(0, 0, 0, 0.2)
+                cursor: pointer
+                
+                transform: scale3d(1.01, 1.01, 1.01)
             .contentSlider
                 background: #FFFFFF
                 box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.1)
@@ -161,8 +164,10 @@ header
             justify-content: space-between
             height: 130px
             align-items: center
+            transition: all 0.2s linear
             &:hover
                 background: #FFFFFF
+                transform: scale3d(1.001, 1.001, 1.001)
                 .count span
                     background: #F0F0F0
 

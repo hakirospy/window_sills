@@ -165,12 +165,17 @@ header .authBlock .faivourite span, header .authBlock .smallBasket span {
   border-radius: 10px;
   height: 290px;
   width: 242px;
+  -webkit-transition: all 0.2s linear;
+  transition: all 0.2s linear;
   position: relative;
 }
 
 .mainSlider .conteinerSlider .itemSlider:hover {
-  -webkit-filter: drop-shadow(0px 5px 30px rgba(0, 0, 0, 0.5));
-          filter: drop-shadow(0px 5px 30px rgba(0, 0, 0, 0.5));
+  -webkit-box-shadow: 0 5px 10px 4px rgba(0, 0, 0, 0.2);
+          box-shadow: 0 5px 10px 4px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  -webkit-transform: scale3d(1.01, 1.01, 1.01);
+          transform: scale3d(1.01, 1.01, 1.01);
 }
 
 .mainSlider .conteinerSlider .itemSlider .contentSlider {
@@ -244,10 +249,14 @@ header .authBlock .faivourite span, header .authBlock .smallBasket span {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  -webkit-transition: all 0.2s linear;
+  transition: all 0.2s linear;
 }
 
 .razdelTabs .contentTab .tab:hover {
   background: #FFFFFF;
+  -webkit-transform: scale3d(1.001, 1.001, 1.001);
+          transform: scale3d(1.001, 1.001, 1.001);
 }
 
 .razdelTabs .contentTab .tab:hover .count span {
