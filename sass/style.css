@@ -382,4 +382,94 @@ header .authBlock .faivourite span, header .authBlock .smallBasket span {
   background: #F9F8F7;
   border-radius: 10px;
 }
+
+.main_content .calc_block {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: minmax(500px, 775px) minmax(500px, 775px);
+      grid-template-columns: minmax(500px, 775px) minmax(500px, 775px);
+}
+
+.main_content .calc_block .inputs_block {
+  margin-top: 29px;
+}
+
+.main_content .calc_block .inputs_block .name_color {
+  margin-bottom: 16px;
+}
+
+.main_content .calc_block .inputs_block .name_color .name {
+  font-family: 'Museo Sans Cyrl 500';
+  font-size: 16px;
+  line-height: 24px;
+  color: #000000;
+}
+
+.main_content .calc_block .inputs_block .name_color .value {
+  font-size: 14px;
+  line-height: 18px;
+  color: #707070;
+  margin-left: 5px;
+}
+
+.main_content .calc_block .inputs_block .color_block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-column-gap: 2px;
+          column-gap: 2px;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin-left: -5px;
+}
+
+.main_content .calc_block .inputs_block .color_block span {
+  width: 52px;
+  height: 52px;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 7px;
+  border: 2px solid white;
+  border-radius: 6px;
+  margin-top: -8px;
+  margin-bottom: 10px;
+}
+
+.main_content .calc_block .inputs_block .color_block span:hover {
+  border: 2px solid #CAA381;
+  cursor: pointer;
+}
+
+.main_content .calc_block .inputs_block .color_block span:hover p {
+  display: block;
+}
+
+.main_content .calc_block .inputs_block .color_block span img {
+  border-radius: 4px;
+  width: 42px;
+  height: 42px;
+}
+
+.main_content .calc_block .inputs_block .color_block span p {
+  display: none;
+  position: absolute;
+  font-size: 12px;
+  line-height: 14px;
+  text-align: center;
+  color: #000000;
+  bottom: -42px;
+  width: 100;
+  background: #F5F3F1;
+  border-radius: 8px;
+  z-index: 1;
+  padding: 5px 3px;
+}
 /*# sourceMappingURL=style.css.map */

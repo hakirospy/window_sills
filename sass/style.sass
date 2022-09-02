@@ -260,4 +260,63 @@ header
             background: #F9F8F7
             border-radius: 10px
     .calc_block
-        
+        display: grid
+        grid-template-columns: minmax(500px,775px) minmax(500px,775px) 
+        .inputs_block
+            margin-top: 29px
+            .name_color
+                margin-bottom: 16px
+                .name
+                    font-family: 'Museo Sans Cyrl 500'
+                    font-size: 16px
+                    line-height: 24px
+                    
+                    color: #000000
+                .value
+                    font-size: 14px
+                    line-height: 18px
+                    color: #707070
+                    margin-left: 5px
+
+
+            .color_block
+                display: flex
+                column-gap: 2px
+                flex-wrap: wrap
+                margin-left: -5px
+                span
+                    width: 52px
+                    height: 52px
+                    position: relative
+                 
+                    display: flex
+                    justify-content: center
+                    align-items: center
+                    border-radius: 7px
+                    border: 2px solid white
+                    border-radius: 6px
+                    margin-top: -8px
+                    margin-bottom: 10px
+
+                    &:hover
+                        border: 2px solid #CAA381
+                        cursor: pointer
+                    &:hover p
+                        display: block                        
+                    img
+                        border-radius: 4px
+                        width: 42px
+                        height: 42px
+                    p
+                        display: none
+                        position: absolute
+                        font-size: 12px
+                        line-height: 14px
+                        text-align: center
+                        color: #000000
+                        bottom: -42px
+                        width: 100
+                        background: #F5F3F1
+                        border-radius: 8px
+                        z-index: 1
+                        padding: 5px 3px
