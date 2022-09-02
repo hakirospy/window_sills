@@ -152,12 +152,14 @@ header
         max-width: 1572px
         display: grid
         column-gap: 24px
+        align-items: end
         
         grid-template-columns:  repeat(4, 375px)
-        
+
+ 
         .tab
             display: flex
-            padding: 22px 40px
+            padding: 0px 40px 0px 40px
             background: #F0F0F0
             border-radius: 10px 10px 0px 0px
             cursor: pointer
@@ -169,12 +171,22 @@ header
                 background: #FFFFFF
                 transform: scale3d(1.001, 1.001, 1.001)
                 .count span
-                    background: #F0F0F0
+                    background: #F0F0F0 
 
             .count span
                 background: #FFFFFF
                 border-radius: 30px
-                padding: 15px
+               
+               
+                font-size: 18px
+                line-height: 24px
+                width: 60px
+                height: 60px
+                
+                display: grid
+                align-items: center
+                justify-content: space-around
+
                
 
 
@@ -188,5 +200,64 @@ header
 
             
          
-       
+// main content
+.main_content
+   
+    display: grid
+    justify-content: space-around
+    background-color: white 
+   
 
+    .name_item_block
+        display: grid
+        grid-template-columns: minmax(500px, 774px) minmax(500px, 774px) 
+        margin-top: 40px
+        align-items: center
+        .name_tovar 
+            font-size: 30px
+            line-height: 44px
+            text-align: left
+        .price_title_block
+            box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1)
+            border-radius: 10px
+            display: grid
+            grid-template-columns: 1fr minmax(200px, 294px)
+            align-items: center
+            .price
+                font-size: 24px
+                line-height: 30px
+                padding: 20px 0px 20px 30px
+                .pogonash
+                    font-size: 14px
+                    ine-height: 18px
+                .quetion
+                    background-image: url('../img/quetion.svg')
+                    display: inline-block
+                    margin-left: 10px
+                    width: 20px
+                    height: 20px
+            .button_to_cart
+                font-family: 'Museo Sans Cyrl 500'
+                font-size: 16px
+                line-height: 24px
+                
+                background: #E4CEBA                 
+                border-radius: 6px
+                height: 46px
+                display: grid
+                align-items: center
+                justify-content: space-around
+                margin-right: 30px
+                cursor: 
+                
+
+    .foto_calc_block
+        display: grid
+        grid-template-columns: 1fr 1fr 1fr
+        column-gap: 23px
+        margin-top: 30px
+        .foto_calc
+            background: #F9F8F7
+            border-radius: 10px
+    .calc_block
+        
