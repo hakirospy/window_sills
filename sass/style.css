@@ -383,15 +383,20 @@ header .authBlock .faivourite span, header .authBlock .smallBasket span {
   border-radius: 10px;
 }
 
+.main_content .line {
+  border: 1px solid #CBCBCB;
+  margin-top: 65px;
+  margin-bottom: 60px;
+}
+
 .main_content .calc_block {
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: minmax(500px, 775px) minmax(500px, 775px);
       grid-template-columns: minmax(500px, 775px) minmax(500px, 775px);
-}
-
-.main_content .calc_block .inputs_block {
-  margin-top: 29px;
+  -webkit-column-gap: 20px;
+          column-gap: 20px;
+  margin-top: 30px;
 }
 
 .main_content .calc_block .inputs_block .dop_tovar_button {
@@ -631,5 +636,154 @@ header .authBlock .faivourite span, header .authBlock .smallBasket span {
   border-radius: 8px;
   z-index: 1;
   padding: 5px 3px;
+}
+
+.main_content .ready_block > div {
+  padding: 20px 30px;
+  -webkit-box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+          box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  margin-bottom: 5px;
+}
+
+.main_content .ready_block > div .line_block {
+  border: 0.5px solid #D2D0CE;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.main_content .ready_block > div .edit_button {
+  margin-top: 10px;
+  display: -ms-grid;
+  display: grid;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  font-size: 14px;
+  line-height: 18px;
+  -webkit-text-decoration-line: underline;
+          text-decoration-line: underline;
+  cursor: pointer;
+  color: #CAA381;
+}
+
+.main_content .ready_block > div .title_all_price {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.main_content .ready_block > div .title_all_price .title {
+  font-size: 16px;
+  line-height: 24px;
+  color: black;
+  font-family: 'Museo Sans Cyrl 500';
+}
+
+.main_content .ready_block > div .title_all_price .all_price {
+  font-size: 24px;
+  line-height: 30px;
+  font-family: 'Museo Sans Cyrl 500';
+}
+
+.main_content .ready_block > div .all_price_button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-column-gap: 15px;
+          column-gap: 15px;
+  margin-top: 15px;
+}
+
+.main_content .ready_block > div .all_price_button div.past_plus {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.main_content .ready_block > div .all_price_button div {
+  background: #404040;
+  border-radius: 6px;
+  width: 100%;
+  padding: 13px 20px;
+  color: white;
+  text-align: center;
+  cursor: pointer;
+}
+
+.main_content .ready_block > div .all_price_button div:hover {
+  background: black;
+}
+
+.main_content .ready_block > div .all_price_button div .add_plus {
+  background-image: url(../img/plus.svg);
+  display: inline-block;
+  margin-right: 10px;
+  width: 19px;
+  height: 20px;
+}
+
+.main_content .ready_block > div .all_price_button div.bround {
+  background: #E4CEBA;
+  color: black;
+}
+
+.main_content .ready_block > div .all_price_button div.bround:hover {
+  background: #d9b696;
+}
+
+.main_content .ready_block .content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.main_content .ready_block .content .title {
+  font-size: 14px;
+  line-height: 18px;
+  font-family: 'Museo Sans Cyrl 500';
+}
+
+.main_content .ready_block .content .prop {
+  font-size: 14px;
+  line-height: 18px;
+  margin-top: 5px;
+  color: #707070;
+}
+
+.main_content .ready_block .content .price {
+  font-size: 16px;
+  line-height: 18px;
+}
+
+.main_content .ready_block .content .price .close_calc {
+  background-image: url("../img/close_calc.svg");
+  width: 12px;
+  height: 13px;
+  display: inline-block;
+  margin-left: 10px;
+}
+
+.main_content .ready_block .content .price .close_calc:hover {
+  background-image: url("../img/close_calc_hover.svg");
+  height: 12px;
+  cursor: pointer;
 }
 /*# sourceMappingURL=style.css.map */

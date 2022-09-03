@@ -259,11 +259,19 @@ header
         .foto_calc
             background: #F9F8F7
             border-radius: 10px
+    .line
+        border: 1px solid #CBCBCB
+        margin-top: 65px
+        margin-bottom: 60px
     .calc_block
         display: grid
         grid-template-columns: minmax(500px,775px) minmax(500px,775px) 
+        column-gap: 20px
+        margin-top: 30px
+        
+            
         .inputs_block
-            margin-top: 29px
+            
 
             .dop_tovar_button
                 display: flex
@@ -436,3 +444,95 @@ header
                         border-radius: 8px
                         z-index: 1
                         padding: 5px 3px
+    .ready_block
+        &>div
+            padding: 20px 30px
+            box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1)
+            border-radius: 10px
+            margin-bottom: 5px
+            .line_block
+                border: 0.5px solid #D2D0CE
+                margin-top: 10px
+                margin-bottom: 10px
+            .edit_button
+                margin-top: 10px
+                display: grid
+                justify-content: space-around
+                font-size: 14px
+                line-height: 18px
+                text-decoration-line: underline
+                cursor: pointer
+                color: #CAA381
+            .title_all_price
+                display: flex
+                justify-content: space-between
+                .title
+                    font-size: 16px
+                    line-height: 24px
+                    color: black
+                    font-family: 'Museo Sans Cyrl 500'
+                .all_price
+                    font-size: 24px
+                    line-height: 30px
+                    font-family: 'Museo Sans Cyrl 500'
+            .all_price_button
+                display: flex
+                justify-content: space-between
+                column-gap: 15px
+                margin-top: 15px
+                div.past_plus
+                    display: flex
+                    align-items: center
+                    justify-content: center
+
+
+                div
+                    background: #404040
+                    border-radius: 6px
+                    width: 100%
+                    padding: 13px 20px
+                    color: white
+                    text-align: center
+                    cursor: pointer
+                    &:hover
+                        background: black
+                    .add_plus
+                        background-image: url(../img/plus.svg)
+                        display: inline-block
+                        margin-right: 10px
+                        width: 19px
+                        height: 20px
+
+                div.bround
+                    background: #E4CEBA
+                    color: black
+                    &:hover
+                        background: #d9b696
+
+
+        .content
+            display: flex
+            justify-content: space-between
+            align-items: center
+            .title
+                font-size: 14px
+                line-height: 18px
+                font-family: 'Museo Sans Cyrl 500'
+            .prop
+                font-size: 14px
+                line-height: 18px
+                margin-top: 5px
+                color: #707070
+            .price
+                font-size: 16px
+                line-height: 18px
+                .close_calc
+                    background-image: url('../img/close_calc.svg')
+                    width: 12px
+                    height: 13px
+                    display: inline-block
+                    margin-left: 10px
+                    &:hover
+                        background-image: url('../img/close_calc_hover.svg')
+                        height: 12px
+                        cursor: pointer
