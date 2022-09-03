@@ -394,6 +394,166 @@ header .authBlock .faivourite span, header .authBlock .smallBasket span {
   margin-top: 29px;
 }
 
+.main_content .calc_block .inputs_block .dop_tovar_button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-column-gap: 15px;
+          column-gap: 15px;
+}
+
+.main_content .calc_block .inputs_block .dop_tovar_button div {
+  padding: 7px 38px 7px 25px;
+  background: #404040;
+  border-radius: 4px;
+  color: white;
+  font-size: 16px;
+  line-height: 24px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.main_content .calc_block .inputs_block .dop_tovar_button div:hover {
+  background: black;
+  cursor: pointer;
+}
+
+.main_content .calc_block .inputs_block .dop_tovar_button div span {
+  background-image: url("../img/plus.svg");
+  width: 19px;
+  height: 20px;
+  display: inline-block;
+  margin-left: 15px;
+}
+
+.main_content .calc_block .inputs_block .sizes {
+  font-size: 16px;
+  line-height: 24px;
+  color: black;
+  font-family: 'Museo Sans Cyrl 500';
+  margin-top: 20px;
+  margin-bottom: 15px;
+}
+
+.main_content .calc_block .inputs_block .sizes_block {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: minmax(150px, 216px) minmax(150px, 216px) 1fr;
+      grid-template-columns: minmax(150px, 216px) minmax(150px, 216px) 1fr;
+  -webkit-column-gap: 15px;
+          column-gap: 15px;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: end;
+}
+
+.main_content .calc_block .inputs_block .sizes_block .count_price_block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 5px;
+}
+
+.main_content .calc_block .inputs_block .sizes_block input[name='long'], .main_content .calc_block .inputs_block .sizes_block select {
+  border: 1px solid #D2D0CE;
+  border-radius: 4px;
+  padding: 9px 15px;
+  font-size: 14px;
+  line-height: 18px;
+  color: black;
+  width: 100%;
+  margin-top: 5px;
+}
+
+.main_content .calc_block .inputs_block .sizes_block .quest_block {
+  position: relative;
+}
+
+.main_content .calc_block .inputs_block .sizes_block .quest_block:after {
+  content: '';
+  background-image: url(../img/quetion.svg);
+  display: inline-block;
+  margin-left: 10px;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  right: 15px;
+  bottom: 9px;
+}
+
+.main_content .calc_block .inputs_block .sizes_block input[name='count'] {
+  border: none;
+  text-align: center;
+  width: 72%;
+}
+
+.main_content .calc_block .inputs_block .sizes_block .price_tovara {
+  margin-left: 15px;
+  font-size: 24px;
+  line-height: 30px;
+  font-family: 'Museo Sans Cyrl 500';
+}
+
+.main_content .calc_block .inputs_block .sizes_block .price_tovara span {
+  font-size: 14px;
+  line-height: 18px;
+}
+
+.main_content .calc_block .inputs_block .sizes_block .count_block {
+  border: 1px solid #D2D0CE;
+  border-radius: 4px;
+  padding: 9px 15px;
+  width: 68px;
+  text-align: center;
+}
+
+.main_content .calc_block .inputs_block .sizes_block > div > span {
+  font-size: 14px;
+  line-height: 18px;
+  color: #707070;
+}
+
+.main_content .calc_block .inputs_block .surface {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 15px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 10px;
+}
+
+.main_content .calc_block .inputs_block .surface .title {
+  font-size: 16px;
+  line-height: 24px;
+  color: black;
+  font-family: 'Museo Sans Cyrl 500';
+}
+
+.main_content .calc_block .inputs_block .surface .button {
+  font-size: 16px;
+  line-height: 24px;
+  color: black;
+  background: white;
+  border: 2px solid #D2D0CE;
+  border-radius: 4px;
+  padding: 7px 15px;
+}
+
+.main_content .calc_block .inputs_block .surface .button:hover {
+  background: #F4EDE6;
+  border: 2px solid #CAA381;
+  cursor: pointer;
+}
+
 .main_content .calc_block .inputs_block .name_color {
   margin-bottom: 16px;
 }

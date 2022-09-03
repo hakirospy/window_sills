@@ -264,6 +264,122 @@ header
         grid-template-columns: minmax(500px,775px) minmax(500px,775px) 
         .inputs_block
             margin-top: 29px
+
+            .dop_tovar_button
+                display: flex
+                column-gap: 15px
+                div
+                    
+                    padding: 7px 38px 7px 25px
+                    background: #404040
+                    border-radius: 4px
+                    color: white
+                    font-size: 16px
+                    line-height: 24px
+                    align-items: center
+                    display: flex
+
+                    &:hover
+                        background: black
+                        cursor: pointer
+                    span
+                        background-image: url('../img/plus.svg')
+                        width: 19px
+                        height: 20px
+                        display: inline-block
+                        margin-left: 15px
+
+            .sizes
+                font-size: 16px
+                line-height: 24px
+                color: black
+                font-family: 'Museo Sans Cyrl 500'
+                margin-top: 20px
+                margin-bottom: 15px
+            .sizes_block
+                display: grid
+                grid-template-columns: minmax(150px, 216px) minmax(150px, 216px) 1fr
+                column-gap: 15px
+                align-items: end
+                .count_price_block
+                    display: flex
+                    align-items: center
+                    margin-top: 5px
+                input[name='long'], select
+                    border: 1px solid #D2D0CE
+                    border-radius: 4px
+                    padding: 9px 15px 
+                    font-size: 14px
+                    line-height: 18px
+                    color: black
+                    width: 100%
+                    margin-top: 5px
+                .quest_block
+                    position: relative
+
+                 
+                    &:after
+                        content: ''
+                        background-image: url(../img/quetion.svg)
+                        display: inline-block
+                        margin-left: 10px
+                        width: 20px
+                        height: 20px
+                        position: absolute
+                        right: 15px
+                        bottom: 9px
+                        
+                        
+
+                input[name='count']
+                    border: none
+                    text-align: center
+                    width: 72%
+                    
+                .price_tovara
+                    margin-left: 15px
+                    font-size: 24px
+                    line-height: 30px
+                    font-family: 'Museo Sans Cyrl 500'
+                    span
+                        font-size: 14px
+                        line-height: 18px
+                .count_block
+                    border: 1px solid #D2D0CE
+                    border-radius: 4px
+                    padding: 9px 15px 
+                    width: 68px
+                    text-align: center
+
+            .sizes_block>div>span
+                font-size: 14px
+                line-height: 18px
+                color: #707070
+
+            .surface
+                display: flex
+                gap: 15px
+                align-items: center
+                margin-top: 10px
+                .title
+                    font-size: 16px
+                    line-height: 24px
+                    color: black
+                    font-family: 'Museo Sans Cyrl 500'
+                .button
+                    font-size: 16px
+                    line-height: 24px
+                    color: black
+                    background: white
+                    border: 2px solid #D2D0CE
+                    border-radius: 4px
+                    padding: 7px 15px
+                    &:hover
+                        background: #F4EDE6
+                        border: 2px solid #CAA381
+                        cursor: pointer
+                        
+
             .name_color
                 margin-bottom: 16px
                 .name
