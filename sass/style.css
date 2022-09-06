@@ -786,4 +786,172 @@ header .authBlock .faivourite span, header .authBlock .smallBasket span {
   height: 12px;
   cursor: pointer;
 }
+
+.main_content .benefits {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: minmax(480px, 508px) minmax(900px, 1040px);
+      grid-template-columns: minmax(480px, 508px) minmax(900px, 1040px);
+  -webkit-column-gap: 24px;
+          column-gap: 24px;
+}
+
+.main_content .benefits .block_foto {
+  background: #F9F8F7;
+  border-radius: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.main_content .benefits .block_benefits > .title {
+  font-size: 40px;
+  line-height: 58px;
+  color: black;
+  margin-bottom: 40px;
+}
+
+.main_content .benefits .block_benefits .item_benefits {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (minmax(200px, 242px))[2];
+      grid-template-columns: repeat(2, minmax(200px, 242px));
+  -webkit-column-gap: 24px;
+          column-gap: 24px;
+  row-gap: 20px;
+}
+
+.main_content .benefits .block_benefits .item_benefits > div {
+  background: #F0F0F0;
+  border-radius: 6px;
+  padding: 25px 20px;
+}
+
+.main_content .benefits .block_benefits .item_benefits > div .text {
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+  padding-top: 8px;
+  display: inline-block;
+}
+
+.main_content .benefits .block_benefits .item_benefits > div .button {
+  padding: 8px 25px;
+  background: #404040;
+  border-radius: 4px;
+  font-family: 'Museo Sans Cyrl 500';
+  font-size: 16px;
+  line-height: 24px;
+  color: #FFFFFF;
+  display: inline-block;
+  margin-top: 12px;
+}
+
+.main_content .benefits .block_benefits .item_benefits > div .block_ben_button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+}
+
+.main_content .benefits .block_benefits .item_benefits > div .smile_icon {
+  width: 74px;
+  height: 76px;
+  display: inline-block;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  position: absolute;
+  right: -20px;
+  top: 1px;
+}
+
+.main_content .benefits .block_benefits .item_benefits > div .title {
+  font-family: 'Museo Sans Cyrl 500';
+  font-style: normal;
+  font-size: 18px;
+  line-height: 24px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.main_content .benefits .block_benefits .item_benefits > div .title .icon {
+  width: 22px;
+  height: 22px;
+  display: inline-block;
+  margin-right: 12px;
+}
+
+.telefone_block {
+  background: #F9F8F7;
+  height: 358px;
+  margin-top: 80px;
+  display: -ms-grid;
+  display: grid;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.telefone_block .content {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: minmax(700px, 1040px) minmax(200px, 400px);
+      grid-template-columns: minmax(700px, 1040px) minmax(200px, 400px);
+  padding: 80px 0px;
+  -webkit-column-gap: 100px;
+          column-gap: 100px;
+}
+
+.telefone_block .content .input_block .block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-column-gap: 23px;
+          column-gap: 23px;
+  margin-top: 30px;
+}
+
+.telefone_block .content .input_block input[type='text'] {
+  border: 1px solid #D2D0CE;
+  border-radius: 4px;
+  padding: 16px 20px;
+  font-size: 16px;
+  line-height: 24px;
+  color: #707070;
+  width: 375px;
+}
+
+.telefone_block .content .input_block input[type='button'] {
+  background: #E4CEBA;
+  border-radius: 4px;
+  width: 241px;
+  border: none;
+  font-family: 'Museo Sans Cyrl 500';
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.telefone_block .content .title {
+  font-size: 40px;
+  line-height: 58px;
+  color: black;
+}
+
+.telefone_block .content .notific {
+  max-width: 315px;
+  font-size: 18px;
+  line-height: 24px;
+  color: black;
+}
 /*# sourceMappingURL=style.css.map */

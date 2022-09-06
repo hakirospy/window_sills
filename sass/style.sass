@@ -536,3 +536,117 @@ header
                         background-image: url('../img/close_calc_hover.svg')
                         height: 12px
                         cursor: pointer
+    .benefits
+        display: grid
+        grid-template-columns: minmax(480px, 508px) minmax(900px,1040px)
+        column-gap: 24px
+
+        .block_foto
+            background: #F9F8F7
+            border-radius: 10px
+            display: flex
+            align-items: center
+            justify-content: space-around
+        .block_benefits
+            &>.title
+                font-size: 40px
+                line-height: 58px
+                color: black
+                margin-bottom: 40px
+            .item_benefits
+                display: grid
+                grid-template-columns: repeat(2, minmax(200px, 242px) )
+                column-gap: 24px
+                row-gap: 20px
+                &>div
+                    background: #F0F0F0
+                    border-radius: 6px
+                    padding: 25px 20px
+                    .text
+                        font-weight: 300
+                        font-size: 16px
+                        line-height: 24px
+                        padding-top: 8px
+                        display: inline-block
+                    .button
+                        padding: 8px 25px
+                        background: #404040
+                        border-radius: 4px
+                        font-family: 'Museo Sans Cyrl 500'
+                        font-size: 16px
+                        line-height: 24px
+                        color: #FFFFFF
+                        display: inline-block
+                        margin-top: 12px
+                    .block_ben_button
+                        display: flex
+                        align-items: center
+                        position: relative
+                    .smile_icon
+                        
+                        width: 74px
+                        height: 76px
+                        display: inline-block
+                        background-size: 100% 100%
+                        background-repeat: no-repeat
+                        position: absolute
+                        right: -20px
+                        top: 1px
+
+                    .title
+                        font-family: 'Museo Sans Cyrl 500'
+                        font-style: normal
+                        font-size: 18px
+                        line-height: 24px
+                        display: flex
+                        align-items: center
+                        .icon
+                            width: 22px
+                            height: 22px
+                            display: inline-block
+                            margin-right: 12px
+.telefone_block
+    background: #F9F8F7
+    height: 358px
+    margin-top: 80px
+    display: grid
+    justify-content: space-around
+    
+    .content
+        display: grid
+        grid-template-columns: minmax(700px, 1040px) minmax(200px, 400px)
+        padding: 80px 0px
+        column-gap: 100px
+
+        .input_block
+            .block
+                display: flex
+                column-gap: 23px
+                margin-top: 30px
+            input[type='text']
+
+                border: 1px solid #D2D0CE
+                border-radius: 4px
+                padding: 16px 20px
+                font-size: 16px
+                line-height: 24px
+                color: #707070
+                width: 375px
+            input[type='button']
+                background: #E4CEBA
+                border-radius: 4px
+                width: 241px
+                border: none
+                font-family: 'Museo Sans Cyrl 500'
+                
+                font-size: 16px
+                line-height: 24px
+        .title
+            font-size: 40px
+            line-height: 58px
+            color: black
+        .notific
+            max-width: 315px
+            font-size: 18px
+            line-height: 24px
+            color: black
