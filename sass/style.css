@@ -1212,4 +1212,80 @@ header .authBlock .faivourite span, header .authBlock .smallBasket span {
 .choose_podok .block_slider_main .text_block_main .text_block .image_block img {
   height: 100%;
 }
+
+.main_blog {
+  background-color: #F9F8F7;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: minmax(1000px, 1572px);
+      grid-template-columns: minmax(1000px, 1572px);
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 300px;
+}
+
+.main_blog .alcohol_block {
+  position: relative;
+  top: -255px;
+}
+
+.main_blog .alcohol_block .title {
+  font-size: 40px;
+  line-height: 58px;
+  margin-bottom: 80px;
+}
+
+.main_blog .alcohol_block .slider_cart_blog {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (minmax(280px, 375px))[4];
+      grid-template-columns: repeat(4, minmax(280px, 375px));
+  -webkit-column-gap: 24px;
+          column-gap: 24px;
+  position: relative;
+}
+
+.main_blog .alcohol_block .slider_cart_blog .item {
+  background: #FFFFFF;
+  -webkit-box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.1);
+          box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  padding: 30px 26px;
+  position: relative;
+  height: 450px;
+}
+
+.main_blog .alcohol_block .slider_cart_blog .item .content {
+  position: relative;
+  top: -80px;
+}
+
+.main_blog .alcohol_block .slider_cart_blog .item .content .title_cart {
+  font-family: 'Museo Sans Cyrl 500';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  margin-top: 25px;
+}
+
+.main_blog .alcohol_block .slider_cart_blog .item .content .text_descr {
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+  height: 80px;
+  margin-top: 11px;
+}
+
+.main_blog .alcohol_block .slider_cart_blog .item .content .button {
+  font-size: 16px;
+  line-height: 24px;
+  border: 1px solid #C4C4C4;
+  border-radius: 4px;
+  padding: 7px 25px;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+}
 /*# sourceMappingURL=style.css.map */
