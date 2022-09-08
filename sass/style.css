@@ -1270,6 +1270,11 @@ header .authBlock .faivourite span, header .authBlock .smallBasket span {
   margin-top: 25px;
 }
 
+.main_blog .alcohol_block .slider_cart_blog .item .content .title_cart:hover {
+  color: #CAA381;
+  cursor: pointer;
+}
+
 .main_blog .alcohol_block .slider_cart_blog .item .content .text_descr {
   font-weight: 300;
   font-size: 16px;
@@ -1287,5 +1292,11 @@ header .authBlock .faivourite span, header .authBlock .smallBasket span {
   width: -webkit-max-content;
   width: -moz-max-content;
   width: max-content;
+}
+
+.main_blog .alcohol_block .slider_cart_blog .item .content .button:hover {
+  background: #E4CEBA;
+  cursor: pointer;
+  border: 1px solid #E4CEBA;
 }
 /*# sourceMappingURL=style.css.map */
