@@ -1299,4 +1299,8 @@ header .authBlock .faivourite span, header .authBlock .smallBasket span {
   cursor: pointer;
   border: 1px solid #E4CEBA;
 }
+
+.main_blog .alcohol_block .slider_cart_blog .item .content .image:hover {
+  cursor: pointer;
+}
 /*# sourceMappingURL=style.css.map */
