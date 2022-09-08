@@ -913,6 +913,73 @@ header .authBlock .faivourite span, header .authBlock .smallBasket span {
           column-gap: 100px;
 }
 
+.telefone_block .content .input_block .check_block {
+  width: 375px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-column-gap: 10px;
+          column-gap: 10px;
+  margin-top: 20px;
+}
+
+.telefone_block .content .input_block .check_block label {
+  display: inline-block;
+  position: relative;
+  vertical-align: text-top;
+  cursor: pointer;
+}
+
+.telefone_block .content .input_block .check_block label:hover input ~ .check {
+  background-color: #E4CEBA;
+}
+
+.telefone_block .content .input_block .check_block label input:checked ~ .check {
+  background-color: #E4CEBA;
+}
+
+.telefone_block .content .input_block .check_block label input:checked ~ .check:after {
+  display: block;
+}
+
+.telefone_block .content .input_block .check_block label .check {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 18px;
+  width: 18px;
+  border-radius: 4px;
+  background-color: #FFFFFF;
+}
+
+.telefone_block .content .input_block .check_block label .check::after {
+  content: "";
+  position: absolute;
+  display: none;
+  left: 6px;
+  top: 3px;
+  width: 4px;
+  height: 7px;
+  border: solid #1E242E;
+  border-width: 0 2px 2px 0;
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+}
+
+.telefone_block .content .input_block .check_block label input[type='checkbox'] {
+  visibility: hidden;
+}
+
+.telefone_block .content .input_block .check_block span {
+  font-size: 14px;
+  line-height: 18px;
+  color: #707070;
+}
+
+.telefone_block .content .input_block .check_block span a {
+  color: #E4CEBA;
+}
+
 .telefone_block .content .input_block .block {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -953,5 +1020,196 @@ header .authBlock .faivourite span, header .authBlock .smallBasket span {
   font-size: 18px;
   line-height: 24px;
   color: black;
+}
+
+.telefone_block .content .notific .tel {
+  font-weight: 300;
+  font-size: 30px;
+  line-height: 44px;
+  color: black;
+  margin-top: 36px;
+  margin-bottom: 16px;
+}
+
+.telefone_block .content .notific .time_work {
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+  color: #707070;
+}
+
+.choose_podok {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: minmax(300px, 1572px);
+      grid-template-columns: minmax(300px, 1572px);
+  margin-top: 40px;
+}
+
+.choose_podok .title_name {
+  font-weight: 300;
+  font-size: 40px;
+  line-height: 58px;
+  color: black;
+}
+
+.choose_podok .block_slider_main {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: minmax(300px, 1040px) minmax(300px, 508px);
+      grid-template-columns: minmax(300px, 1040px) minmax(300px, 508px);
+  -webkit-column-gap: 24px;
+          column-gap: 24px;
+  margin-top: 20px;
+}
+
+.choose_podok .block_slider_main .slider {
+  background: #F9F8F7;
+  border-radius: 20px;
+  padding: 50px 50px;
+}
+
+.choose_podok .block_slider_main .slider .item_slider .title {
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 32px;
+  color: black;
+}
+
+.choose_podok .block_slider_main .slider .item_slider .detail_text {
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+  color: black;
+}
+
+.choose_podok .block_slider_main .slider .item_slider .image {
+  margin-top: 22px;
+  margin-bottom: 25px;
+}
+
+.choose_podok .block_slider_main .slider .navigation_slider {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+  margin-top: 30px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.choose_podok .block_slider_main .slider .navigation_slider .num_page {
+  font-size: 26px;
+  line-height: 36px;
+  color: #C4C4C4;
+}
+
+.choose_podok .block_slider_main .slider .navigation_slider .num_page .big_num {
+  font-size: 40px;
+  line-height: 36px;
+  color: black;
+  padding-right: 10px;
+}
+
+.choose_podok .block_slider_main .slider .navigation_slider .navigation_button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-column-gap: 30px;
+          column-gap: 30px;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.choose_podok .block_slider_main .slider .navigation_slider .navigation_button .left {
+  background-image: url("../img/left_button_slider_main.svg");
+  width: 56px;
+  height: 56px;
+}
+
+.choose_podok .block_slider_main .slider .navigation_slider .navigation_button .right {
+  background-image: url("../img/right_button_slider_main.svg");
+  width: 56px;
+  height: 56px;
+}
+
+.choose_podok .block_slider_main .text_block_main {
+  background: #F9F8F7;
+  border-radius: 10px;
+  padding: 46px 30px 30px 30px;
+}
+
+.choose_podok .block_slider_main .text_block_main .title_button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-column-gap: 30px;
+          column-gap: 30px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-bottom: 20px;
+}
+
+.choose_podok .block_slider_main .text_block_main .title_button .text {
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 32px;
+}
+
+.choose_podok .block_slider_main .text_block_main .title_button .button {
+  background: #404040;
+  border-radius: 4px;
+  padding: 8px 25px;
+  color: white;
+  font-size: 15px;
+  line-height: 24px;
+}
+
+.choose_podok .block_slider_main .text_block_main .text_block {
+  padding-top: 20px;
+  border-top: 1px solid #CBCBCB;
+  padding-bottom: 20px;
+}
+
+.choose_podok .block_slider_main .text_block_main .text_block .grid_block {
+  display: -ms-grid;
+  display: grid;
+}
+
+.choose_podok .block_slider_main .text_block_main .text_block .grid_block .title {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  font-family: 'Museo Sans Cyrl 500';
+  color: black;
+  padding-bottom: 7px;
+}
+
+.choose_podok .block_slider_main .text_block_main .text_block .grid_block .text {
+  font-size: 16px;
+  line-height: 24px;
+  padding-bottom: 15px;
+}
+
+.choose_podok .block_slider_main .text_block_main .text_block .image_block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.choose_podok .block_slider_main .text_block_main .text_block .image_block img {
+  height: 100%;
 }
 /*# sourceMappingURL=style.css.map */
