@@ -1609,6 +1609,35 @@ header .authBlock .faivourite span, header .authBlock .smallBasket span {
       grid-template-columns: minmax(300px, 408px);
 }
 
+.main_blog .map_block .map_content .block .work_time {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.main_blog .map_block .map_content .block .work_time .green_dot {
+  background: #99AF45;
+  border-radius: 3px;
+  display: inline-block;
+  width: 5px;
+  height: 5px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.main_blog .map_block .map_content .block .work_time .strelka {
+  background-image: url("../img/strelka_down.svg");
+  width: 14px;
+  height: 8px;
+  margin-left: 15px;
+}
+
 .main_blog .map_block .map_content .block .address {
   font-size: 16px;
   line-height: 24px;
