@@ -1741,13 +1741,15 @@ footer .content .links_block div a {
   font-weight: 300;
   font-size: 16px;
   line-height: 24px;
-  padding: 7px 32px;
+  padding: 7px 7px;
   background: #F0F0F0;
   border-radius: 4px;
   margin-bottom: 20px;
   display: inline-block;
   color: black;
   text-decoration: none;
+  width: 108px;
+  text-align: center;
 }
 
 footer .content .razdels {
