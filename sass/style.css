@@ -1415,6 +1415,9 @@ header .authBlock .faivourite span, header .authBlock .smallBasket span {
   display: flex;
   -webkit-column-gap: 20px;
           column-gap: 20px;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
 }
 
 .main_blog .sertic_block .message .message_block .two_message .text_message {
@@ -1584,5 +1587,124 @@ header .authBlock .faivourite span, header .authBlock .smallBasket span {
   display: -ms-grid;
   display: grid;
   margin-top: 3px;
+}
+
+.main_blog .map_block .map_content {
+  margin-top: 30px;
+  position: relative;
+}
+
+.main_blog .map_block .map_content .block {
+  background-color: white;
+  -webkit-box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.1);
+          box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  padding: 50px;
+  position: absolute;
+  top: 35px;
+  left: 67px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: minmax(300px, 408px);
+      grid-template-columns: minmax(300px, 408px);
+}
+
+.main_blog .map_block .map_content .block .address {
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.main_blog .map_block .map_content .block .telephone_map {
+  font-family: 'Museo Sans Cyrl 500';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  margin-top: 24px;
+  margin-bottom: 20px;
+}
+
+.main_blog .map_block .map_content .block .email_map {
+  font-family: 'Museo Sans Cyrl 500';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  margin-bottom: 20px;
+}
+
+.main_blog .map_block .map_content .block .video_contact {
+  border-top: 1px solid #CBCBCB;
+  margin-top: 24px;
+  padding-top: 10px;
+}
+
+.main_blog .map_block .map_content .block .video_contact .prev_text {
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.main_blog .map_block .map_content .block .video_contact .button_send_otzuv {
+  background: #404040;
+  border-radius: 4px;
+  padding: 15px 124px;
+  font-family: 'Museo Sans Cyrl 500';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  color: white;
+  margin-bottom: 15px;
+}
+
+.main_blog .map_block .map_content .block .video_contact .button_send_otzuv:hover {
+  cursor: pointer;
+}
+
+.main_blog .map_block .map_content .block .video_contact .button_send_tell {
+  background: #E4CEBA;
+  border-radius: 4px;
+  padding: 15px 130px;
+  font-family: 'Museo Sans Cyrl 500';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.main_blog .map_block .map_content .block .video_contact .button_send_tell .tell {
+  background-image: url("../img/tell.svg");
+  height: 23px;
+  width: 23px;
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.main_blog .map_block .map_content .block .video_contact .image_contact {
+  position: relative;
+  background-image: url("../img/foto_officce.png");
+  height: 223px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.main_blog .map_block .map_content .block .video_contact .image_contact .play {
+  position: absolute;
+  background-image: url(../img/play_button.svg);
+  width: 80px;
+  height: 80px;
+  left: 43%;
+  top: 33%;
+}
+
+.main_blog .map_block .map_content .block .video_contact .image_contact .play:hover {
+  cursor: pointer;
 }
 /*# sourceMappingURL=style.css.map */
