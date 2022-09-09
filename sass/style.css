@@ -1707,4 +1707,153 @@ header .authBlock .faivourite span, header .authBlock .smallBasket span {
 .main_blog .map_block .map_content .block .video_contact .image_contact .play:hover {
   cursor: pointer;
 }
+
+footer {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: minmax(300px, 1572px);
+      grid-template-columns: minmax(300px, 1572px);
+  margin-top: 60px;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin-bottom: 38px;
+}
+
+footer .content {
+  border-bottom: 1px solid #CBCBCB;
+  padding-bottom: 35px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 7fr 4fr auto;
+      grid-template-columns: 7fr 4fr auto;
+}
+
+footer .content .links_block {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (minmax(70px, 120px))[2];
+      grid-template-columns: repeat(2, minmax(70px, 120px));
+  -webkit-column-gap: 24px;
+          column-gap: 24px;
+}
+
+footer .content .links_block div a {
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+  padding: 7px 32px;
+  background: #F0F0F0;
+  border-radius: 4px;
+  margin-bottom: 20px;
+  display: inline-block;
+  color: black;
+  text-decoration: none;
+}
+
+footer .content .razdels {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 2fr 2fr;
+      grid-template-columns: 2fr 2fr;
+}
+
+footer .content .razdels .menu_one {
+  display: -ms-grid;
+  display: grid;
+}
+
+footer .content .razdels .menu_one .title {
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 32px;
+}
+
+footer .content .razdels .menu_one span {
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 18px;
+}
+
+footer .content .razdels .menu_one span a {
+  color: black;
+  text-decoration: none;
+}
+
+footer .content .razdels .menu_two {
+  display: -ms-grid;
+  display: grid;
+  margin-top: 10px;
+}
+
+footer .content .razdels .menu_two span {
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 18px;
+}
+
+footer .content .razdels .menu_two span a {
+  color: black;
+  text-decoration: none;
+}
+
+footer .content .opisanie_block {
+  display: -ms-grid;
+  display: grid;
+}
+
+footer .content .opisanie_block .name_site {
+  font-family: 'Museo Sans Cyrl 500';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 23px;
+}
+
+footer .content .opisanie_block .address_site {
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 18px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  width: 440px;
+}
+
+footer .content .opisanie_block .soc_block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+footer .content .opisanie_block .soc_block .politika {
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+  padding: 7px 25px;
+  background: #F0F0F0;
+  border-radius: 4px;
+}
+
+footer .content .opisanie_block .soc_block .vk {
+  background-image: url("../img/vk_40.svg");
+  width: 40px;
+  height: 40px;
+  margin-left: 10px;
+  margin-right: 20px;
+}
+
+footer .content .opisanie_block .soc_block .youtube {
+  background-image: url("../img/youtube_40.svg");
+  width: 40px;
+  height: 40px;
+}
+
+footer .detail_txt {
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 18px;
+  margin-top: 20px;
+}
 /*# sourceMappingURL=style.css.map */
